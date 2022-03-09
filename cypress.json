@@ -1,0 +1,13 @@
+{
+  "$schema": "https://on.cypress.io/cypress.schema.json",
+  "ignoreTestFiles": "*.ts",
+  "testFiles": "**/*.feature",
+  "fixturesFolder": "cypress/fixtures",
+  "integrationFolder": "cypress/integration",
+  "pluginsFile": "cypress/plugins/index.ts",
+  "supportFile": "cypress/support/index.ts",
+  "video": false,
+  "videosFolder": "cyreport/videos",
+  "screenshotsFolder": "cyreport/screenshots",
+  "screenshotOnRunFailure": true
+}
