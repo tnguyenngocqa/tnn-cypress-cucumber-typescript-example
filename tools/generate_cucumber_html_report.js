@@ -17,7 +17,7 @@ fs.mkdirSync(dir);
 // eslint-disable-next-line @typescript-eslint/no-var-requires
 const reporter = require('multiple-cucumber-html-reporter');
 const options = {
-  pageTitle: 'Yojee automation',
+  pageTitle: 'Cucumber Automation',
   jsonDir: path.join(process.cwd(), 'cyreport/cucumber-json'),
   reportPath: 'cyreport/cucumber-report/html',
   hideMetadata: false,
